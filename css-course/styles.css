@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'time new roman';
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table tr:first-child {
+    background-color: steelblue;
+    color: #fff;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: #AAA;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
+h1 {
+    color: #075003;
+    /* color: green; */
+    /* background-color: black; */
+    /* font-size: 96px; */
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;  
+    font-size: 9.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Neue", cursive;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+.novo-em {
+    font-size: 300%;
+}
+
+.novo-em h2 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    /* espaçamento melhor entre palavras */
+    text-align: justify;
+    text-indent: 90px;
+}
+
+a {
+    font-size: 2.4rem;
+    color: red;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: rgb(245, 221, 3);
+}
+
+.bg {
+    height: 50vh;
+    width: 100vw;
+    background-color: #555;
+    background-image: url('https://plus.unsplash.com/premium_photo-1714051661316-4432704b02f8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+ul, ol {
+    padding-left: 3.2rem;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+.box {
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5px;
+    padding: 1.5rem;
+    background-color: rgb(2, 2, 78);
+    color: #fff;
+    border: 1rem solid #555;
+    display: inline-block;
+    border-radius: 0.4rem;
+}
+
+img {
+    height: 10rem;
+    width: 14rem;
+    object-fit: cover;
+}
