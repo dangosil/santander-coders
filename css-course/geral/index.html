@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f44ff3a54f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,35 +30,44 @@
     <main>
         <div class="bg"></div>
         <h1>Aprendendo CSS</h1>
+
+        <div class="spinner-container">
+            <i class="fa-solid fa-spinner"></i>
+        </div>
+
         <h2>Tabela</h2>
 
-        <table>
+        <a data-anchor="products" href="link-invalido">Conheça nossos produtos</a>
+
+        <table id="companies-table" class="company-tb">
             <tr>
                 <th>Empresa</th>
                 <th>Contato</th>
                 <th>País</th>
             </tr>
-            <tr>
+            <tr data-company="GCO">
                 <td>Global CO</td>
                 <td>Julia Lagos</td>
                 <td>Chile</td>
             </tr>
-            <tr>
+            <tr data-company="CCL">
                 <td>Centro Comercial Laguna</td>
                 <td>Jennifer Rios</td>
                 <td>Brasil</td>
             </tr>
-            <tr>
+            <tr data-company="CEC">
                 <td>CE & C</td>
                 <td>Roberto Carlos</td>
                 <td>Brasil</td>
             </tr>
-            <tr>
+            <tr data-company="TT">
                 <td>Top Tech</td>
                 <td>João Cardoso</td>
                 <td>Portugal</td>
             </tr>
         </table>
+
+        <a data-anchor="team" href="invalido">Conheça nosso time</a>
 
         <h2>Lista de Compras</h2>
         <ul>
