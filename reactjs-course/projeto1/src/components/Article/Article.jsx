@@ -21,7 +21,7 @@ export class Article extends React.Component {
                     <p>{this.props.description}</p>
                 </div>
             </article>
-        )
+        );
     }
 }
 
