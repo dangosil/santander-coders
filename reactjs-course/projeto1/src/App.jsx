@@ -25,9 +25,9 @@ class App extends React.Component {
       <>
         <Navbar />
 
-        <Counter />
+        {/* <Counter /> */}
 
-        {/* <section id="articles">
+        <section id="articles">
           <Article title="Designing Dashboards" provider="NASA" description="1 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." thumbnail={article1Img} />
 
           <Article title="Vibrant Portraits of 2020" provider="SpaceNews" description="2 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." thumbnail={article2Img} />
@@ -36,7 +36,7 @@ class App extends React.Component {
 
           <Article title="Designing Dashboards" provider="NASA" description="4 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet." thumbnail={article1Img} />
 
-        </section> */}
+        </section>
       </>
     );
   }
